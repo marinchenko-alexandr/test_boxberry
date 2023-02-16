@@ -1,0 +1,14 @@
+Тест проверяет корректную работу кнопки  "Наши отделения" (PyTest + Selenium) на сайте https://boxberry.ru/
+
+Для запуска теста необходимо установить следующие компоненты:
+
+
+1.Установка requirements:
+
+pip3 install -r requirements
+
+2. Скачайте Selenium WebDriver с https://chromedriver.chromium.org/ (выберите версию, совместимую с вашим браузером)
+
+3.Запуск теста:
+
+pytest -s -v
